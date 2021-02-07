@@ -7,4 +7,5 @@ RUN apt-get update  \
     && curl -sL https://deb.nodesource.com/setup_15.x | bash - \
     && apt-get -y install nodejs \
     && npm install -g ts-node \
-    && npm install -g mocha
+    && npm install -g mocha\
+    && npm install -g gulp
